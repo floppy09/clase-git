@@ -1,0 +1,104 @@
+/* cambiar la configuracion de la raiz */
+
+html{
+    font-size: 65.5%;
+}
+
+/* color de fondo */
+    body{
+        background-color: rgba(11, 121, 84, 0.61);
+    }
+
+
+/*llamar al id */
+#principal{
+color:rgb(26, 126, 114);
+font-size: 30px;
+text-align: center;
+ 
+}
+/* tamaño menu */
+#menu{
+    font-size: 20px;
+    text-align: right;
+}
+#menuinicio{
+    text-align: left;
+    font-size: 20px;
+}
+
+/*llamr a class*/
+.colorverde{
+color:rgb(8, 54, 39)
+    }
+
+    .fondoimagen{
+        
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .imagenes img{
+        width: 400px;
+        height: 400px;
+        margin-left: 300px;
+
+    }
+    /* para que el menu quede horizontal */
+    ul li{
+        display: inline-block;
+        padding: 20px;
+    }
+
+
+    a{
+        text-decoration: none;
+    }
+    
+    .redes img{
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin-top: 5px;
+    }
+    .redes{
+        position: fixed;
+        right: 0;
+        top: 50%;
+    }
+    /* flexbox */
+    .padre-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    /* grids */
+    .contenedeor{
+
+        display: grid;
+        grid-template-columns: 20% 30%;
+        grid-template-rows: 30% 40%;
+
+    }
+
+    .hijouno{
+        background-color: antiquewhite;
+        font-size: 20px;
+
+    }
+
+    .hijodos{
+        background-color: aqua;
+        font-size: 20px;
+
+    }
+    .hijotres{
+        background-color: rgb(151, 106, 194);
+
+    }
+    .hijocuatro{
+        background-color: rgb(188, 172, 202);
+
+    }
